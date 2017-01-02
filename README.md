@@ -73,9 +73,13 @@ login.openURL(URL)
 	 }
 	
 
+### Future Improvements:
+========================
 
-
-
+Framework has re-usable codes which makes it easy to built a high end framework.
+*Screesnshot feature will be added shortly.
+*To handle large amount of data , Excel sheet will be used to handle Test Data.
+* WebDriverHelper  class has limited customised backend implementation.The scope for this to advance is really required 
 
 
 
