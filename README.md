@@ -5,8 +5,8 @@ Pre_requiste
 This is a maven project , you need maven insatlled to run this. Here is the link "http://maven.apache.org/install.html"
 
 In order to run the project go to command promt
-1-cd C:\Users\CD\workspace\com.test 
-2-mvn -Dtest=baseclass test
+1. cd C:\Users\CD\workspace\com.test 
+2. -mvn -Dtest=baseclass test
 
 Here in line 1 we go to the base project . This has to be your project location.
 In line 2 we use maven plug in to run our test case. "baseclass" is our Testcase
