@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test.com.test.baseclass]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="Test.com.test.baseclass$DataProviderTest">
+        <methods>
+          <include name="shutDownSelenium"/>
+          <include name="Faliedlogin" invocation-numbers="0"/>
+          <include name="Chrome_setup"/>
+        </methods>
+      </class> <!-- Test.com.test.baseclass$DataProviderTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Test.com.test.baseclass] -->

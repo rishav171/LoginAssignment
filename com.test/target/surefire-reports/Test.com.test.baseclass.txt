@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Test.com.test.baseclass
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.369 sec <<< FAILURE!
+Faliedlogin(Test.com.test.baseclass$DataProviderTest)  Time elapsed: 14.591 sec  <<< FAILURE!
+java.lang.AssertionError:  Invalid username or Password 
+	at org.testng.Assert.fail(Assert.java:94)
+	at Test.com.test.login.verifyLoginSuccess(login.java:91)
+	at Test.com.test.baseclass$DataProviderTest.Faliedlogin(baseclass.java:76)
+
