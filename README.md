@@ -1,5 +1,15 @@
 Selenium Automation Mini Framewok
 ====================================
+Pre_requiste 
+==============
+This is a maven project , you need maven insatlled to run this. Here is the link "http://maven.apache.org/install.html"
+
+In order to run the project go to command promt
+1-cd C:\Users\CD\workspace\com.test 
+2-mvn -Dtest=baseclass test
+
+Here in line 1 we go to the base project . This has to be your project location.
+In line 2 we use maven plug in to run our test case. "baseclass" is our Testcase
 
 Readme Content
 ==============
@@ -9,7 +19,7 @@ Readme Content
 4. Example Codes and methods.
 
 
-Purpose
+Purpose 
 =======
 A Simple POM based framewok , which cab be extended to built a High end Farmework.
 TestNG data providers is used to provide 2 sets of data.  @Test(priority=0,dataProvider = "validcredentials")
@@ -20,7 +30,7 @@ Tools
 
 1.	Selenium
 2.	TestNG
-3.   MAVEN 
+3.     MAVEN 
 
 ### Framework Structure:
 ========================
